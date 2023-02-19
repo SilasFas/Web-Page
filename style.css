@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+    font-family: 'outer-font';
+    src: url('idroid.otf');
+}
+
+/*setting for the header*/
+header {
+    background-image: linear-gradient(#2da362, #063D1E);
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 3em;
+    font-weight: normal;
+    margin: 0px;
+    padding-top: 30px;
+}
+
+header>p {
+    color: white;
+    text-align: center;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.titlelink {
+    color: #83E1AD;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 5px;
+    padding: 2px;
+}
+
+.titlelink:hover {
+    color: #063d1e;
+    background-color: #83E1AD;
+    border-radius: 3px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-indent: 20px;
+    text-align: justify;
+    line-height: 2;
+    margin: 0px;
+}
+
+/*setting for the main content (main_text)*/
+
+body {
+    background-color: #ebe5c5;
+    margin: 0px;
+}
+
+.main_text {
+    margin: auto;
+    width: 55%;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 2px 2px 7px 3px rgba(0, 0, 0, 0.479);
+}
+
+h2 {
+    font-family: 'outer-font';
+    color: #063D1E;
+}
+
+h3 {
+    font-family: 'outer-font';
+    color: #1a5c37;
+    background-image: linear-gradient(to right, #83E1AD, white);
+    padding: 3px;
+    margin: 1px;
+}
+
+span {
+    color: #063D1E;
+    font-weight: 750;
+}
+
+.settinglink {
+    text-decoration: none;
+    color: #063D1E;
+    font-weight: 750;
+    background-color: #83E1AD;
+}
+
+.settinglink:hover {
+    text-decoration: underline;
+}
+
+.settinglink::after {
+    content: '↔';
+}
+
+.android {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.big-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+/*setting for the main video (main_video)*/
