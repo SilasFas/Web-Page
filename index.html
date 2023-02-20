@@ -23,6 +23,7 @@
             <a href="#" class="titlelink">Home</a>
             <a href="#" class="titlelink">News</a>
             <a href="#" class="titlelink">Contacts</a>
+            <a href="#" class="titlelink">Fale conosco</a>
         </nav>
     </header>
     <!--setting for the main content (main_text)-->
@@ -50,7 +51,7 @@
             mascot.
         </p>
         <picture>
-            <source media="(max-width: 1000px)" srcset="dan-droids-pq.png" type="image/png">
+            <source media="(max-width: 800px)" srcset="dan-droids-pq.png" type="image/png">
 
             <img src="dan-droids.png" alt="big-image" class="big-image">
         </picture>
@@ -68,7 +69,7 @@
             pleasant way.
         </p>
         <picture>
-            <source media="(max-width: 1000px)" srcset="irina-blok-pq.jpg" type="image/png">
+            <source media="(max-width: 800px)" srcset="irina-blok-pq.jpg" type="image/png">
 
             <img src="irina-blok.jpg" alt="irina-blok" class="big-image">
         </picture>
@@ -89,12 +90,14 @@
         </p>
     </main>
     <!--setting for the main video (main_video)-->
-    <main class="main_video">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/l2UDgpLz20M" title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen class="video_setting"></iframe>
-    </main>
+    <div class="center_video">
+        <main class="main_video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/l2UDgpLz20M"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen class="video_frame"></iframe>
+        </main>
+    </div>
     <!--setting for the main video (main_article)-->
     <main class="main_article">
         <article>
@@ -106,28 +109,22 @@
                     Another curious thing about Android is that each version has always been named after a candy, in
                     alphabetical order from version 1.5 to 9.0.
                 </p>
-                <span>
-                    <ul>
-                        <li>1.5 - Cupcake</li>
-                        <li>1.6 - Donut</li>
-                        <li>3.0 - Eclair</li>
-                        <li>2.2 - Froyo</li>
-                        <li>2.3 - Gingerbread</li>
-                        <li>3.0 - Honeycomb</li>
-                        <li>4.0 - Ice Cream Sandwich</li>
-                    </ul>
-                </span>
-                <span>
-                    <ul>
-                        <li>4.1 - Jelly Bean</li>
-                        <li>4.4 - KitKat</li>
-                        <li>5.0 - Lolipop</li>
-                        <li>6.0 - Marshmallow</li>
-                        <li>7.0 - Nougat</li>
-                        <li>8.0 - Oreo</li>
-                        <li>9.0 - Pie</li>
-                    </ul>
-                </span>
+                <ul>
+                    <li>1.5 - Cupcake</li>
+                    <li>1.6 - Donut</li>
+                    <li>3.0 - Eclair</li>
+                    <li>2.2 - Froyo</li>
+                    <li>2.3 - Gingerbread</li>
+                    <li>3.0 - Honeycomb</li>
+                    <li>4.0 - Ice Cream Sandwich</li>
+                    <li>4.1 - Jelly Bean</li>
+                    <li>4.4 - KitKat</li>
+                    <li>5.0 - Lolipop</li>
+                    <li>6.0 - Marshmallow</li>
+                    <li>7.0 - Nougat</li>
+                    <li>8.0 - Oreo</li>
+                    <li>9.0 - Pie</li>
+                </ul>
                 <p class="format">
                     Unfortunately, <span>Android Q</span> did not exist, as Google decided to put an end to this fun
                     practice and
@@ -140,8 +137,8 @@
                     each one brought to the Android system.
                 </p>
             </div>
-            <p>
-                Then that's it! I hope you enjoyed our article with this curiosity about the Android system and its
+            <p class="center">
+                That's it! I hope you enjoyed our article with this curiosity about the Android system and its
                 friendly mascot.
             </p>
         </article>
